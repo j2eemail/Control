@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gridLayoutOnClick"
+        android:text="@string/GridLayout"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="switchCompatOnClick"
+        android:text="@string/SwitchCompat"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="popupMenuOnClick"
+        android:text="@string/PopupMenu"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cardViewOnClick"
+        android:text="@string/CardView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="toolbarOnClick"
+        android:text="@string/Toolbar"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="recyclerViewOnClick"
+        android:text="@string/RecyclerView"
+        android:textAllCaps="false" />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll" />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="如果说 AI 是 Google 自己主导的今年 IO 大会的主要主题，那么 Android 就是绝大部分开发者最感兴趣的主题，毕竟按照今年 IO 的数据，Android 在全球已经激活 20 亿部设备，这么大的市场，参会的人中有很大比例是 Android 开发者不足为奇，事后 Android 的分会场几乎场场爆满也确实证明了，但是这次大会上 Android O 版本没有特别大的变化，也没有什么特别让人兴奋的更新点，倒是出人意料的宣布了支持 Kotlin 成为官方编程语言，听到这个消息，我超级惊讶，同时也兴奋的不得了。说出来你们可能不相信，我在小密圈中很早就写一篇文章说了下我对 Kotlin 的看法，我非常看好 Kotlin 的未来，而且我在公司 Android 团队内部也不止一次说过我对 Kotlin 的看好，也号召大家学习下 Kotlin，甚至我还在公司还做过关于 Kotlin 的分享，可能有些人会觉得我事后诸葛亮了，姑且发一下我当时在小密圈的文章的截图，这事当时小密圈那批人都知道，而且好几个月之前写的，原文没做过任何改动：首先，毫无疑问，Kotlin 一定是 Android 开发的未来，即使在之前 Google 没认定 Kotlin 的时候，我都这么认为，现在 Kotlin 转正了更没疑问。Kotlin 语言拥有雄厚的背景，有着新时代语言的各种新特性，写过 Kotlin 你真的再也不想写 Java 了，Java 有着沉重的历史包袱，想要完全靠自身脱胎换骨几乎不可能，而 Kotlin 除了语言上的优势之外，JetBrains 比较正确的一个决策是，它完全兼容 Java，允许你的项目同时支持 Java 和 Kotlin 语言，这就留给开发者足够的时间去把项目过度到 Kotlin，哪怕你真的很懒，不想对老旧代码做处理，只想新写的代码用 Kotlin，那也没任何问题。虽然 Kotlin 还不成熟，还在慢慢优化更新中，但是这不会阻碍它是 Android 开发者未来的趋势，就如当初的 Android Studio，在它刚出来的时候，问题更多，有多少人质疑它是垃圾，但是我坚定的认为 AS 一定是 Android开发者 的未来，事实证明，在 Google 的不断完善之下，它已经完全普及，即使现在它还有一些这样那样的问题，但是也比你用 Eclipse 开发效率高的多。其次，虽然 Kotlin 是 Android 开发的未来，但是它没法改变移动时代已经走下坡路的趋势，它只能加快你的开发效率，让你代码写的更爽，所以，我看到有些学习其他方向的，比如 iOS 开发、Web 前端、Machine Learning 等之类的，看到这个消息，仿佛看到 Android 的又一个春天到了，转而又开始学习 Android，这个完全没必要，语言虽然是新的，但是平台还是那个平台，这跟一种新的行业机会出现是两码事。" />
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

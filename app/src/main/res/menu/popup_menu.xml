@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+       always：总是显示在界面上
+       never：不显示在界面上，只让出现在右边的三个点中
+       ifRoom：如果有位置才显示，不然就出现在右边的三个点中
+       withText:如果有足够空间把标题也显示在图标右侧并且用”|”号分割将图标和标题分割开.(Action Button Icon属性是可选的.如果显示在ActionBar,
+       那么只会显示图标.添加withText以后如果显示在ActionBar的时候有足够空间会把标题和图标以前显示.当显示在ActionBar并且没显示标题的时候,
+       长按图标会弹出标题.当Action Button显示在OverFlow的时候只会显示标题不会显示图标.)
+       collapseActionView表明将ActionView折叠成一个ActionButton
+   -->
+    <item
+        android:id="@+id/menu1"
+        android:orderInCategory="100"
+        android:title="菜单一"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/menu2"
+        android:orderInCategory="100"
+        android:title="菜单二"
+        app:showAsAction="never"></item>
+</menu>

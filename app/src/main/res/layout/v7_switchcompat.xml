@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--
+        showText：true/false	决定是否显示开关按钮上的文字
+        splitTrack： true/false	开关的样式
+        switchMinWidth	开关的最小宽度
+        switchPadding	文字和开关的最小距离
+        switchTextAppearance	开关文字样式
+        thumbTextPadding	文字距两侧的距离
+        thumbTint	开关上按钮的颜色
+        thumbTintMode	按钮样式
+        track	轨道，类似音乐进度条可滑动
+        trackTint	轨道颜色
+        trackTintMode	轨道样式
+        textOff	设置按钮关闭状态显示的文字
+        textOn	设置按钮打开状态显示的文字
+        thumb	引用主题颜色
+    -->
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switch_compat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:longClickable="false"
+        android:textColor="@android:color/white"
+        android:textOff="关"
+        android:textOn="开"
+        app:showText="true"
+        app:switchPadding="10dp"
+        app:theme="@style/SwitchCompatStyle" />
+</LinearLayout>

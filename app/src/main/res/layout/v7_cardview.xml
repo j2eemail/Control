@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azure"
+    android:orientation="vertical">
+
+    <!--
+        cardElevation	阴影的大小
+        cardMaxElevation	阴影最大高度
+        cardBackgroundColor	卡片的背景色
+        cardCornerRadius	卡片的圆角大小
+        contentPadding	卡片内容于边距的间隔
+        contentPaddingBottom	卡片内容与底部的边距
+        contentPaddingTop	卡片内容与顶部的边距
+        contentPaddingLeft	卡片内容与左边的边距
+        contentPaddingRight	卡片内容与右边的边距
+        contentPaddingStart	卡片内容于边距的间隔起始
+        contentPaddingEnd	卡片内容于边距的间隔终止
+        cardUseCompatPadding	设置内边距，V21+的版本和之前的版本仍旧具有一样的计算方式
+        cardPreventConrerOverlap	在V20和之前的版本中添加内边距，这个属性为了防止内容和边角的重叠
+    -->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="@color/LightGreen"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ctz" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/LightGreen"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/CardView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/CardView" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

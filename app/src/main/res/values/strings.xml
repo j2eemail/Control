@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Control</string>
+
+
+    <string name="v4_widget">android.support.v4.widget</string>
+    <string name="Space">Space</string>
+    <string name="SwipeRefreshLayout">SwipeRefreshLayout</string>
+
+    <string name="v7_widet">android.support.v7.widget</string>
+    <string name="GridLayout">GridLayout</string>
+    <string name="SwitchCompat">SwitchCompat</string>
+    <string name="PopupMenu">PopupMenu</string>
+    <string name="CardView">CardView</string>
+    <string name="Toolbar">Toolbar</string>
+    <string name="RecyclerView">RecyclerView</string>
+
+    <string name="design_widet">android.support.design.widget</string>
+    <string name="FloatingActionButton">FloatingActionButton</string>
+    <string name="Snackbar">Snackbar</string>
+    <string name="defaultSnackBarOnClick">默认的Snackbar</string>
+    <string name="stylesSnackBarOnClick">自定义Snackbar样式</string>
+    <string name="customSnackBarOnClick">自定义Snackbar</string>
+    <string name="TextInputLayout">TextInputLayout</string>
+    <string name="TabLayout">TabLayout</string>
+    <string name="NavigationView">NavigationView</string>
+    <string name="AppBarLayout">AppBarLayout</string>
+    <string name="CollapsingToolbarLayout">CollapsingToolbarLayout</string>
+
+    <string name="view_bao">view包</string>
+    <string name="TextureView">TextureView</string>
+    <string name="RippleDrawable">RippleDrawable</string>
+
+    <string name="Palette">Palette</string>
+    <string name="space">占位</string>
+    <string name="click">点击</string>
+    <string name="login">登陆</string>
+</resources>

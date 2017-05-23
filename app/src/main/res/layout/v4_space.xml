@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azure"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/space" />
+    <!--    Space控件是在Android 4.0中加入，是个空白的view，一般用于填充View组件中的间隙。    -->
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/space" />
+
+</LinearLayout>

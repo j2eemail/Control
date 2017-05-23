@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--    CoordinatorLayout 比FrameLayout更适合   -->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fab_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--    FloatingActionButton不支持ListView
+        FAB 默认使用应用主题中设置的浮起色作为按键背景。你可以使用 app:backgroundTint 属性，
+        或者调用 setBackgroundTintList (ColorStateList tint) 方法改变 FAB 背景色；
+        如上文中提到的，可以使用 app:fabSize 属性选择普通大小或者迷你大小；
+        使用 android:src 改变 FAB 对应的 drawable；
+        使用 app:rippleColor 设置 FAB 按下时的波纹效果；
+        使用 app:borderWidth 设置 FAB 边框宽度；
+        使用 app:elevation 设置闲置状态下 FAB 的景深（默认是 6dp）；
+        使用 app:pressedTranslationZ 设置 FAB 按下时的景深（默认是 12dp）。
+
+      -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20.0dip"
+        android:onClick="click"
+        android:src="@mipmap/xiaolian"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:elevation="5.0dip"
+        app:fabSize="normal"
+        app:layout_anchor="@id/fab_recyclerview"
+        app:layout_anchorGravity="bottom|right"
+        app:layout_behavior="com.lxs.control.design.ScrollFloatingActionButton"
+        app:pressedTranslationZ="10.0dip"
+        app:rippleColor="@color/colorPrimary" />
+</android.support.design.widget.CoordinatorLayout>

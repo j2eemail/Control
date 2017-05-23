@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="floatingActionButtonOnClick"
+        android:text="@string/FloatingActionButton"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="snackBarOnClick"
+        android:text="@string/Snackbar"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="textInputLayoutBarOnClick"
+        android:text="@string/TextInputLayout"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tabLayoutBarOnClick"
+        android:text="@string/TabLayout"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="navigationViewBarOnClick"
+        android:text="@string/NavigationView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="appBarLayoutBarOnClick"
+        android:text="@string/AppBarLayout"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="collapsingToolbarLayoutBarOnClick"
+        android:text="@string/CollapsingToolbarLayout"
+        android:textAllCaps="false" />
+</LinearLayout>

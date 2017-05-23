@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--
+        GridLayout是在Android4.0中引进的新布局,减少布局嵌套层次从而提高性能；针对需要复杂对齐的布局
+        android:columnCount
+        属性说明：GridLayout的最大列数
+        android:rowCount
+        属性说明：GridLayout的最大行数
+        android:columnOrderPreserved
+        属性说明： 当设置为true，使列边界显示的顺序和列索引的顺序相同。默认是true。
+        android:orientation
+        属性说明：GridLayout中子元素的布局方向。有以下取值：
+        horizontal  水平布局。
+        vertical    竖直布局。
+        android:rowOrderPreserved
+        属性说明： 当设置为true，使行边界显示的顺序和行索引的顺序相同。默认是true。
+        android:useDefaultMargins
+        属性说明： 当设置ture，当没有指定视图的布局参数时，告诉GridLayout使用默认的边距。默认值是false。
+        -->
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:columnCount="4"
+        app:orientation="horizontal"
+        app:rowCount="4">
+        <!--
+        android:layout_column   从0算起
+        app:layout_columnSpan   所占列数
+        app:layout_row  从0算起
+        app:layout_rowSpan  所占行数
+        app:layout_columnWeight 列权重比
+        app:layout_rowWeight    行权重比
+        android:layout_gravity
+        top                     控件置于容器顶部，不改变控件的大小。
+        bottom                  控件置于容器底部，不改变控件的大小。
+        left                    控件置于容器左边，不改变控件的大小。
+        right                   控件置于容器右边，不改变控件的大小。
+        center_vertical         控件置于容器竖直方向中间，不改变控件的大小。
+        fill_vertical           如果需要，则往竖直方向延伸该控件。
+        center_horizontal       控件置于容器水平方向中间，不改变控件的大小。
+        fill_horizontal         如果需要，则往水平方向延伸该控件。
+        center                  控件置于容器中间，不改变控件的大小。
+        fill                    如果需要，则往水平、竖直方向延伸该控件。
+        clip_vertical           垂直剪切，剪切的方向基于该控件的top/bottom布局属性。若该控件的gravity是竖直的：若它的gravity是top的话，则剪切该控件的底部；若该控件的gravity是bottom的，则剪切该控件的顶部。
+        clip_horizontal         水平剪切，剪切的方向基于该控件的left/right布局属性。若该控件的gravity是水平的：若它的gravity是left的话，则剪切该控件的右边；若该控件的gravity是  right的，则剪切该控件的左边。
+        start                   控件置于容器的起始处，不改变控件的大小。
+        end                     控件置于容器的结束处，不改变控件的大小。
+        -->
+
+        <ImageView
+            android:background="@color/Azure"
+            android:src="@mipmap/image0"
+            app:layout_column="0"
+            app:layout_columnSpan="2"
+            app:layout_gravity="fill"
+            android:onClick="imageOnClick"
+            app:layout_row="0"
+            app:layout_rowSpan="2" />
+
+        <ImageView
+            android:background="@color/Cyan"
+            android:src="@mipmap/image1"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <ImageView
+            android:background="@color/BlueViolet"
+            android:src="@mipmap/image2"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <ImageView
+            android:background="@color/Green"
+            android:src="@mipmap/image3"
+            app:layout_column="2"
+            app:layout_columnSpan="2"
+            app:layout_gravity="fill"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <ImageView
+            android:background="@color/Grey"
+            android:src="@mipmap/image4"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="2"
+            app:layout_rowSpan="2" />
+
+        <ImageView
+            android:background="@color/CornflowerBlue"
+            android:src="@mipmap/image5"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <ImageView
+            android:background="@color/IndianRed"
+            android:src="@mipmap/image6"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <ImageView
+            android:background="@color/LightGreen"
+            android:src="@mipmap/image7"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <ImageView
+            android:background="@color/Magenta"
+            android:src="@mipmap/image8"
+            app:layout_column="1"
+            app:layout_columnSpan="2"
+            app:layout_gravity="fill"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
+
+        <ImageView
+            android:background="@color/MediumBlue"
+            android:src="@mipmap/image9"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
+
+    </android.support.v7.widget.GridLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+</LinearLayout>
