@@ -1,54 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="floatingActionButtonOnClick"
-        android:text="@string/FloatingActionButton"
-        android:textAllCaps="false" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="snackBarOnClick"
-        android:text="@string/Snackbar"
-        android:textAllCaps="false" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="floatingActionButtonOnClick"
+            android:text="@string/FloatingActionButton"
+            android:textAllCaps="false" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="textInputLayoutBarOnClick"
-        android:text="@string/TextInputLayout"
-        android:textAllCaps="false" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="snackBarOnClick"
+            android:text="@string/Snackbar"
+            android:textAllCaps="false" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="tabLayoutBarOnClick"
-        android:text="@string/TabLayout"
-        android:textAllCaps="false" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="textInputLayoutOnClick"
+            android:text="@string/TextInputLayout"
+            android:textAllCaps="false" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="navigationViewBarOnClick"
-        android:text="@string/NavigationView"
-        android:textAllCaps="false" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="TextInputEditTextOnClick"
+            android:text="@string/TextInputEditText"
+            android:textAllCaps="false" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="appBarLayoutBarOnClick"
-        android:text="@string/AppBarLayout"
-        android:textAllCaps="false" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tabLayoutOnClick"
+            android:text="@string/TabLayout"
+            android:textAllCaps="false" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="collapsingToolbarLayoutBarOnClick"
-        android:text="@string/CollapsingToolbarLayout"
-        android:textAllCaps="false" />
-</LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="navigationViewOnClick"
+            android:text="@string/NavigationView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="appBarLayoutOnClick"
+            android:text="@string/AppBarLayout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="collapsingToolbarLayoutOnClick"
+            android:text="@string/CollapsingToolbarLayout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="swipeDismissBehaviorOnClick"
+            android:text="@string/SwipeDismissBehavior"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="bottomSheetBehaviorOnClick"
+            android:text="@string/BottomSheetBehavior"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="bottomSheetDialogOnClick"
+            android:text="@string/BottomSheetDialog"
+            android:textAllCaps="false" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="bottomNavigationViewOnClick"
+            android:text="@string/BottomNavigationView"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

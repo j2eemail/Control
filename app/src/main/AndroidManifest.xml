@@ -22,6 +22,8 @@
         <activity android:name=".V4Activity"></activity>
         <activity android:name=".v4.SpaceActivity"></activity>
         <activity android:name=".v4.SwipeRefreshLayoutActivity"></activity>
+        <activity android:name=".v4.SlidingPaneLayoutActivity"></activity>
+        <activity android:name=".v4.DrawerLayoutActivity"></activity>
 
         <activity android:name=".V7Activity"></activity>
         <activity android:name=".v7.GridLayoutActivity"></activity>
@@ -43,6 +45,7 @@
         <activity android:name=".design.FloatingActionButtonActivity"></activity>
         <activity android:name=".design.SnackbarActivity"></activity>
         <activity android:name=".design.TextInputLayoutActivity"></activity>
+        <activity android:name=".design.TextInputEditTextActivity"></activity>
         <activity android:name=".design.TabLayoutActivity"></activity>
         <activity android:name=".design.NavigationViewActiivity"></activity>
         <activity android:name=".design.AppBarLayoutActivity"
@@ -51,6 +54,11 @@
         <activity android:name=".design.CollapsingToolbarLayoutActivity"
             android:theme="@style/AppTheme.NoActionBar"
             ></activity>
+        <activity android:name=".design.BottomSheetBehaviorActivity"></activity>
+        <activity android:name=".design.SwipeDismissBehaviorActivity"></activity>
+        <activity android:name=".design.BottomSheetDialogActivity"></activity>
+        <activity android:name=".design.BottomNavigationViewActivity"></activity>
+
     </application>
 
 </manifest>

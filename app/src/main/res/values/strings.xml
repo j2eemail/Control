@@ -5,6 +5,8 @@
     <string name="v4_widget">android.support.v4.widget</string>
     <string name="Space">Space</string>
     <string name="SwipeRefreshLayout">SwipeRefreshLayout</string>
+    <string name="SlidingPaneLayout">SlidingPaneLayout</string>
+    <string name="DrawerLayout">DrawerLayout</string>
 
     <string name="v7_widet">android.support.v7.widget</string>
     <string name="GridLayout">GridLayout</string>
@@ -21,10 +23,17 @@
     <string name="stylesSnackBarOnClick">自定义Snackbar样式</string>
     <string name="customSnackBarOnClick">自定义Snackbar</string>
     <string name="TextInputLayout">TextInputLayout</string>
+    <string name="TextInputEditText">TextInputEditText</string>
     <string name="TabLayout">TabLayout</string>
     <string name="NavigationView">NavigationView</string>
     <string name="AppBarLayout">AppBarLayout</string>
     <string name="CollapsingToolbarLayout">CollapsingToolbarLayout</string>
+    <string name="BottomSheetBehavior">BottomSheetBehavior</string>
+    <string name="SwipeDismissBehavior">SwipeDismissBehavior</string>
+    <string name="BottomSheetDialog">BottomSheetDialog</string>
+    <string name="BottomNavigationView">BottomNavigationView</string>
+
+
 
     <string name="view_bao">view包</string>
     <string name="TextureView">TextureView</string>
@@ -34,4 +43,7 @@
     <string name="space">占位</string>
     <string name="click">点击</string>
     <string name="login">登陆</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
 </resources>

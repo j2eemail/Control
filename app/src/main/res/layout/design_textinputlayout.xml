@@ -4,6 +4,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <!--
+        counterEnabled              用于设置字符计数器的开启或关闭
+        counterMaxLength            设置字符计数器的最大长度。（仅用于设置计数器最大值，并不影响文本实际能输入的最大长度）
+        errorEnabled                用于设置错误提示是否开启。
+        hint                        设置输入框的提示语。
+        hintAnimationEnabled        开启或关闭hint浮动成标签的动画效果。
+        hintEnabled                 开启或关闭hint浮动的功能，设为false的话就和之前的EditText一样，在输入文字后，提示语就消失了。
+        hintTextAppearance	        设置hint的style，字体颜色，字体大小等，可引用系统自带的也可以自定义。若要使用请统一使用，以保证APP体验的统一性。
+        passwordToggleEnabled		控制密码可见开关是否启用。设为false则该功能不启用，密码输入框右侧也没有控制密码可见与否的开关。
+        passwordToggleDrawable		设置密码可见开关的图标。通常我们会在不同的情况下设定不同的图标，可通过自定义一个selector，根据“state_checked”属性来控制图标的切换。
+        passwordToggleTint	        控制密码可见开关图标的颜色。在开启或关闭的状态下我们可以设定不同的颜色，可通过自定义一个color的selector，根据“state_checked”和“state_selected”属性来控制颜色的切换。
+        passwordToggleTintMode		控制密码可见开关图标的背景颜色混合模式。这个地方我不是很能理解，希望有人可以指教。
+        passwordToggleContentDescription	该功能是为Talkback或其他无障碍功能提供的。TalkBack会去读contentDescription的值，告诉用户这个操作是什么。
+
+        counterMaxLength用于配置最大字数，当配置了它时，就必须再配置counterOverflowTextAppearance，否则当用户输入的字数超过这个最大字数时会引发异常。
+    -->
+
     <android.support.design.widget.TextInputLayout
         android:id="@+id/usernameWrapper"
         android:layout_width="match_parent"

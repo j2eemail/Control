@@ -29,4 +29,12 @@ public class V4Activity extends AppCompatActivity {
         startActivity(new Intent(this, SwipeRefreshLayoutActivity.class));
     }
 
+    public void slidingPaneLayoutOnClick(View view) {
+        startActivity(new Intent(this, SlidingPaneLayoutActivity.class));
+    }
+
+    public void drawerLayoutOnClick(View view) {
+        startActivity(new Intent(this, DrawerLayoutActivity.class));
+    }
+
 }

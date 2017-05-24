@@ -7,29 +7,30 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="spaceOnClick"
-        android:text="@string/Space"
+        android:text="@string/v4_widget"
         android:textAllCaps="false" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="swipeRefreshLayoutOnClick"
-        android:text="@string/SwipeRefreshLayout"
+        android:text="@string/v7_widet"
         android:textAllCaps="false" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="slidingPaneLayoutOnClick"
-        android:text="@string/SlidingPaneLayout"
+        android:text="@string/design_widet"
         android:textAllCaps="false" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="drawerLayoutOnClick"
-        android:text="@string/DrawerLayout"
+        android:text="@string/view_bao"
         android:textAllCaps="false" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Palette"
+        android:textAllCaps="false" />
 </LinearLayout>

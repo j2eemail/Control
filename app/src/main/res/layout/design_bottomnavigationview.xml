@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Hello World!"
+        android:textSize="36sp" />
+
+    <!--
+    底部导航栏高度默认是 56dp。
+    菜单元素只能是 3~5 个。如果个数少于3个或者多于5个，则会报错。
+    icon 的选中颜色默认是 @color/colorPrimary。当然你也可以使用 app:itemIconTint="@android:color/white" 来自定义，这样定以后，所有的 icon 颜色都是这个了。
+    菜单元素文字的默认颜色是 @color/colorPrimary。你可以使用 app:itemTextColor="@android:color/white" 自定义。
+    底部导航栏背景颜色默认是当前样式的背景色（白色/黑色），你可以使用 app:itemBackground="@android:color/black" 来更改。
+    -->
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:itemBackground="@color/LightGray"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:menu="@menu/bottomnavigation_menu" />
+</android.support.design.widget.CoordinatorLayout>

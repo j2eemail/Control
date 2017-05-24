@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--
+    <item name="colorControlNormal">@android:color/white</item>底部线 默认颜色
+    <item name="colorControlActivated">@android:color/white</item>底部线 EditText激活时颜色
+    <item name="android:textCursorDrawable">@drawable/line</item>设置光标
+    如果要取消TextInputEditText底部线，在EditText中我们设置background=@null，
+    但是TextInputEditText不同，我们需要将TextInputLayout和TextInputEdit的backgound都设置为@null
+    -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:counterEnabled="true"
+        app:counterMaxLength="8"
+        app:counterOverflowTextAppearance="@style/TextAppearance.Design.Counter.Overflow"
+        app:counterTextAppearance="@style/TextAppearance.Design.Counter">
+
+        <!--    TextInputEditText与EditText的唯一区别就是，横屏时输入文字，是否会在编辑框内显示提示文字。    -->
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="提示"
+            android:padding="8dp" />
+
+    </android.support.design.widget.TextInputLayout>
+</android.support.design.widget.CoordinatorLayout>
